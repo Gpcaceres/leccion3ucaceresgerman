@@ -6,7 +6,7 @@
 
 /* Header */
 .app-header {
-  background: linear-gradient(135deg, #107647 0%, #091909 100%);
+  background: linear-gradient(135deg, #434644 0%, #101110 100%);
   color: white;
   padding: 2rem;
   text-align: center;
@@ -176,7 +176,7 @@ textarea {
 }
 
 .btn-secondary:hover:not(:disabled) {
-  background-color: #878787;
+  background-color: #434644;
 }
 
 .btn-edit {
