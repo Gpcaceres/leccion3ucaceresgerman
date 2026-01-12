@@ -52,12 +52,6 @@ section {
   box-shadow: var(--shadow);
 }
 
-.form-section {
-  max-width: 800px;
-  margin: 0 auto;
-  width: 100%;
-}
-
 section h2 {
   margin-bottom: 1.5rem;
   color: var(--primary-color);
@@ -86,9 +80,32 @@ section h2 {
 
 /* Form Styles */
 .destination-form {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
+}
+
+.destination-form .form-group:nth-child(3),
+.destination-form .form-group:nth-child(4) {
+  grid-column: span 1;
+}
+
+.destination-form .form-row {
+  grid-column: 1 / -1;
+}
+
+.destination-form .form-group:has(textarea) {
+  grid-column: 1 / -1;
+}
+
+.destination-form .form-actions {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+  .destination-form {
+    grid-template-columns: 1fr;
+  }
 }
 
 .form-group {
@@ -101,6 +118,12 @@ section h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 label {
@@ -212,7 +235,14 @@ textarea {
 /* Destination List */
 .destination-list {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .destination-list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .destination-card {
