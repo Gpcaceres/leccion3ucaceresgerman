@@ -75,7 +75,7 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>🌍 Gestión de Destinos</h1>
-        <p className="subtitle">Lección 3U - UCACERES German</p>
+        <p className="subtitle">Lección 3U - CACERES German</p>
       </header>
 
       <main className="app-main">
