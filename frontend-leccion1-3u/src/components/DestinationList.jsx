@@ -33,14 +33,14 @@ export default function DestinationList({ destinations, onEdit, onDelete }) {
               onClick={() => onEdit(destination)}
               title="Editar"
             >
-              ✏️ Editar
+              Editar
             </button>
             <button
               className="btn btn-delete"
               onClick={() => onDelete(destination._id)}
               title="Eliminar"
             >
-              🗑️ Eliminar
+              Eliminar
             </button>
           </div>
         </div>
