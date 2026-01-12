@@ -20,10 +20,10 @@ export default function DestinationList({ destinations, onEdit, onDelete }) {
             )}
             <div className="coordinates">
               <span className="coord">
-                <strong>Lat:</strong> {destination.lat.toFixed(4)}°
+                <strong>Lat:</strong> {typeof destination.lat === 'number' ? destination.lat.toFixed(4) : destination.lat || 'N/A'}°
               </span>
               <span className="coord">
-                <strong>Lng:</strong> {destination.lng.toFixed(4)}°
+                <strong>Lng:</strong> {typeof destination.lng === 'number' ? destination.lng.toFixed(4) : destination.lng || 'N/A'}°
               </span>
             </div>
           </div>
