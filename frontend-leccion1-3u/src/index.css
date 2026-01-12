@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #7c3aed;
-  --secondary-color: #6b7280;
-  --success-color: #059669;
-  --danger-color: #dc2626;
-  --warning-color: #d97706;
+  --primary-color: #47F59A;
+  --secondary-color: #A6B7A6;
+  --success-color: #49C879;
+  --danger-color: #F84AA2;
+  --warning-color: #F84AA2;
   --bg-color: #f9fafb;
   --card-bg: #ffffff;
-  --text-color: #111827;
-  --text-light: #6b7280;
+  --text-color: #191110;
+  --text-light: #6B7280;
   --border-color: #e5e7eb;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
