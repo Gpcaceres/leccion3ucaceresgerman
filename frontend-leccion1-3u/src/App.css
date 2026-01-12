@@ -6,7 +6,7 @@
 
 /* Header */
 .app-header {
-  background: linear-gradient(135deg, #434644 0%, #101110 100%);
+  background: #1f1f1f;
   color: white;
   padding: 2rem;
   text-align: center;
@@ -112,6 +112,8 @@ textarea {
   border-radius: 8px;
   font-size: 1rem;
   transition: all 0.3s ease;
+  background-color: #333333;
+  color: var(--text-color);
 }
 
 input:focus,
@@ -244,7 +246,7 @@ textarea {
 
 .country {
   font-size: 1rem;
-  color: var(--text-light);
+  color: var(--primary-color);
   margin-bottom: 0.75rem;
 }
 
@@ -258,7 +260,7 @@ textarea {
   display: flex;
   gap: 1.5rem;
   padding: 0.75rem;
-  background-color: var(--bg-color);
+  background-color: #1f1f1f;
   border-radius: 8px;
   margin-top: 1rem;
 }
@@ -277,7 +279,7 @@ textarea {
   gap: 0.5rem;
   padding: 1rem 1.25rem;
   border-top: 1px solid var(--border-color);
-  background-color: var(--bg-color);
+  background-color: #1f1f1f;
 }
 
 .empty-message {
@@ -289,7 +291,7 @@ textarea {
 
 /* Footer */
 .app-footer {
-  background-color: var(--text-color);
+  background-color: #1f1f1f;
   color: white;
   text-align: center;
   padding: 1.5rem;
