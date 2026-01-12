@@ -6,7 +6,7 @@
 
 /* Header */
 .app-header {
-  background: linear-gradient(135deg, #6b21a8 0%, #3b0764 100%);
+  background: linear-gradient(135deg, #107647 0%, #091909 100%);
   color: white;
   padding: 2rem;
   text-align: center;
@@ -118,7 +118,7 @@ input:focus,
 textarea:focus {
   outline: none;
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+  box-shadow: 0 0 0 3px rgba(71, 245, 154, 0.2);
 }
 
 input.error,
@@ -165,7 +165,7 @@ textarea {
 }
 
 .btn-primary:hover:not(:disabled) {
-  background-color: #6d28d9;
+  background-color: #3BD683;
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
 }
@@ -176,7 +176,7 @@ textarea {
 }
 
 .btn-secondary:hover:not(:disabled) {
-  background-color: #4b5563;
+  background-color: #878787;
 }
 
 .btn-edit {
@@ -187,7 +187,7 @@ textarea {
 }
 
 .btn-edit:hover {
-  background-color: #c2410c;
+  background-color: #D93780;
 }
 
 .btn-delete {
@@ -198,7 +198,7 @@ textarea {
 }
 
 .btn-delete:hover {
-  background-color: #dc2626;
+  background-color: #C1236F;
 }
 
 /* Destination List */
