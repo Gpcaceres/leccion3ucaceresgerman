@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  // Cargar destinos al inicio
+  // Cargar destinos al inicios
   useEffect(() => {
     loadDestinations()
   }, [])
